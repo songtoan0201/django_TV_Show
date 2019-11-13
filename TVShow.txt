@@ -1,0 +1,12 @@
+Show.objects.create(title="Stranger Things", network="Netflix", release_date="2016-07-15", description="Stranger Things is an American science fiction 
+horror web television series")
+Show.objects.create(title="Brooklyn Nine-Nine", network="NBC", release_date="2013-09-17", description="Brooklyn Nine-Nine is an American television police sitcom created by Dan Goor and Michael Schur")
+Show.objects.create(title="Game of Thrones", network="HBO", release_date="2011-04-17", description="Game of Thrones is an American fantasy drama television series,  an adaptation of A Song of Ice and Fire, George R. R. Martin's series of fantasy novels")
+Show.objects.create(title="Pushing Daisies", network="ABC", release_date="2007-10-03", description="Pushing Daisies is an American fantasy mystery comedy-drama television series created by Bryan Fuller")
+Show.objects.create(title="Parks and Recreation", network="NBC", release_date="2009-04-09", description="Parks and Recreation is an American political satire television sitcom created by Greg Daniels and Michael Schur")
+
+<input type="hidden" name="user_id" value = "1">
+if method == "POST"
+	redirect("home pae")
+if method =="GET"
+	render("new template")
